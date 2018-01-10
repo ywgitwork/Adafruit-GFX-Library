@@ -29,6 +29,8 @@ class Adafruit_GFX : public Print {
   virtual void writeLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);
   virtual void endWrite(void);
 
+  //画五角星
+  virtual void Adafruit_GFX::YFLPenTacle(int16_t x0, int16_t y0, int16_t r, uint16_t color);
   // CONTROL API
   // These MAY be overridden by the subclass to provide device-specific
   // optimized code.  Otherwise 'generic' versions are used.
