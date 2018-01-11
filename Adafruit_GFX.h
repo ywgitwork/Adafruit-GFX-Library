@@ -29,6 +29,9 @@ class Adafruit_GFX : public Print {
   virtual void writeLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);
   virtual void endWrite(void);
 
+
+  virtual void WWQOval(int16_t x0, int16_t y0, int16_t a, int16_t b, uint16_t color);
+
   //画五角星
   virtual void Adafruit_GFX::YFLPenTacle(int16_t x0, int16_t y0, int16_t r, uint16_t color);
   // CONTROL API
